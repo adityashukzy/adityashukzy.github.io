@@ -6,7 +6,7 @@ const garamond = EB_Garamond({ subsets: ['latin'] });
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className={`${garamond.className} text-[17px] md:text-[18px] leading-relaxed`}>
+    <div className={`${garamond.className} text-[18px] md:text-[20px] lg:text-[21px] leading-relaxed`}>
       <Component {...pageProps} />
     </div>
   );

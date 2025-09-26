@@ -6,8 +6,8 @@ export default function Layout({ children }: PropsWithChildren) {
   return (
     <div className="min-h-full flex flex-col">
       <header>
-        <div className="mx-auto w-full max-w-4xl px-4 py-4 flex items-center justify-between">
-          <nav className="flex gap-4 text-sm">
+        <div className="mx-auto w-full max-w-4xl px-4 py-5 flex items-center justify-between">
+          <nav className="flex gap-6 text-base md:text-lg font-semibold">
             <Link href="/">about</Link>
             <Link href="/blog">blog</Link>
             <Link href="/publications">publications</Link>

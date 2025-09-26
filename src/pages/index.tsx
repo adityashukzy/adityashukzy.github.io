@@ -11,12 +11,14 @@ export default function HomePage() {
       </Head>
       <section className="grid grid-cols-1 md:grid-cols-5 gap-8 items-start">
         <div className="md:col-span-3 space-y-4">
-          <h1 className="text-4xl font-bold tracking-tight">
+          <h1 className="text-5xl md:text-6xl font-bold tracking-tight">
             <span className="font-extrabold">Aditya</span> Shukla
           </h1>
           <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
           § Passionate about using ML and Data to create unique products, tools, and services.
+          
           § I value the process of building anything with heart, integrity, and operational & aesthetic beauty.
+          
           § Open-minded, conscientious, and creative.
           </p>
           <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
@@ -28,13 +30,13 @@ export default function HomePage() {
             <Image
               src="/images/profile.jpg"
               alt="Profile photo"
-              width={320}
-              height={320}
+              width={720}
+              height={720}
               className="h-full w-full object-cover"
               priority
             />
           </div>
-          <p className="mt-2 text-xs text-neutral-500">Place your photo at public/images/profile.jpg</p>
+          <p className="mt-2 text-xs text-neutral-500">Me in Maldives!</p>
         </div>
       </section>
     </Layout>

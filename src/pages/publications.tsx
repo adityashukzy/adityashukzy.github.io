@@ -7,7 +7,7 @@ export default function PublicationsPage() {
       <Head>
         <title>Aditya Shukla's Publications</title>
       </Head>
-      <h1 className="text-2xl font-semibold mb-6">publications</h1>
+      <h1 className="text-4xl md:text-5xl font-semibold mb-6">publications</h1>
       <div className="space-y-6">
         <div>
           <h2 className="font-medium">An Integrated Document Manipulation Tool Leveraging LLMs, Transformers, and Attention Mechanism</h2>
@@ -19,7 +19,7 @@ export default function PublicationsPage() {
           <h2 className="font-medium">Real-Time GPU-Accelerated Driver Assistance System</h2>
           <p className="text-sm text-neutral-600 dark:text-neutral-400">Pooja Ravi, <strong>Aditya Shukla</strong>, and B. Muruganantham</p>
           <p className="text-sm text-neutral-600 dark:text-neutral-400">RCAAI 2022, Springer - Intelligent Control, Robotics, and Industrial Automation 2023</p>
-          <a href="#https://link.springer.com/chapter/10.1007/978-981-99-4634-1_64" className="text-sm">PDF</a>
+          <a href="https://link.springer.com/chapter/10.1007/978-981-99-4634-1_64" className="text-sm">PDF</a>
         </div>
       </div>
     </Layout>

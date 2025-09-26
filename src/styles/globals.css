@@ -7,10 +7,10 @@ html, body, #__next {
 }
 
 body {
-  @apply bg-white text-neutral-900 antialiased dark:bg-[#0e1026] dark:text-[#d8d9f0];
+  @apply bg-white text-neutral-900 antialiased dark:bg-[#1a1f2e] dark:text-white;
 }
 
 a {
-  @apply text-blue-600 hover:underline;
+  @apply text-[#00665E] hover:underline;
 }
 

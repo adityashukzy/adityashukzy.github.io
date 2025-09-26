@@ -7,7 +7,7 @@ export default function ProjectsPage() {
       <Head>
         <title>Aditya Shukla's Projects</title>
       </Head>
-      <h1 className="text-2xl font-semibold mb-4">Projects</h1>
+      <h1 className="text-4xl md:text-5xl font-semibold mb-6">projects</h1>
       <ul className="list-disc pl-6 space-y-2 text-neutral-700">
         <li>Project Alpha — A short description.</li>
         <li>Project Beta — Another short description.</li>

@@ -25,7 +25,7 @@ export default function BlogIndex() {
       <Head>
         <title>Blog | Aditya Shukla</title>
       </Head>
-      <h1 className="text-2xl font-semibold mb-6">blog</h1>
+      <h1 className="text-4xl md:text-5xl font-semibold mb-6">blog</h1>
       <div className="space-y-6">
         {posts.map((p) => (
           <article key={p.slug} className="space-y-1">
