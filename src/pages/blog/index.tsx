@@ -4,18 +4,11 @@ import Layout from '@/components/Layout';
 
 const posts = [
   {
-    slug: 'alexnet-from-scratch',
-    title: 'AlexNet',
-    date: 'Aug 27, 2024',
-    summary: 'Training AlexNet from scratch and notes on CNN architecture choices.',
-    tags: ['AI/ML', 'CNN'],
-  },
-  {
-    slug: 'ready-set-go',
-    title: 'Ready Set Go',
-    date: 'Aug 1, 2024',
-    summary: 'Thoughts on momentum, pacing, and how to start projects well.',
-    tags: ['Reflection'],
+    slug: 'reflections',
+    title: 'Reflections',
+    date: 'September 27, 2025',
+    summary: 'Some thoughts on my new life in Toronto so far.',
+    tags: ['Canada', 'life', "Master's Degree"],
   },
 ];
 
@@ -23,7 +16,7 @@ export default function BlogIndex() {
   return (
     <Layout>
       <Head>
-        <title>Blog | Aditya Shukla</title>
+        <title>Aditya Shukla's Blog</title>
       </Head>
       <h1 className="text-4xl md:text-5xl font-semibold mb-6">blog</h1>
       <div className="space-y-6">
