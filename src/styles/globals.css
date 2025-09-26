@@ -7,7 +7,7 @@ html, body, #__next {
 }
 
 body {
-  @apply bg-white text-neutral-900 antialiased dark:bg-neutral-950 dark:text-neutral-100;
+  @apply bg-white text-neutral-900 antialiased dark:bg-[#0e1026] dark:text-[#d8d9f0];
 }
 
 a {

@@ -8,10 +8,11 @@ export default function Layout({ children }: PropsWithChildren) {
       <header>
         <div className="mx-auto w-full max-w-4xl px-4 py-4 flex items-center justify-between">
           <nav className="flex gap-4 text-sm">
-            <Link href="/about">About</Link>
-            <Link href="/projects">Projects</Link>
-            <Link href="/blog">Blog</Link>
-            <Link href="/contact">Contact</Link>
+            <Link href="/">about</Link>
+            <Link href="/blog">blog</Link>
+            <Link href="/publications">publications</Link>
+            <Link href="/projects">projects</Link>
+            <Link href="/contact">contact</Link>
           </nav>
           <ThemeToggle />
         </div>

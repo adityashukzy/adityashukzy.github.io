@@ -1,12 +1,12 @@
 import type { AppProps } from 'next/app';
 import '@/styles/globals.css';
-import { Inter } from 'next/font/google';
+import { EB_Garamond } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const garamond = EB_Garamond({ subsets: ['latin'] });
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className={inter.className}>
+    <div className={garamond.className}>
       <Component {...pageProps} />
     </div>
   );

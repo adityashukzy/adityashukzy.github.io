@@ -22,10 +22,12 @@ export default function ThemeToggle() {
     <button
       type="button"
       onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-      className="rounded-md border px-3 py-1 text-sm transition-colors hover:bg-neutral-50 dark:border-neutral-800 dark:hover:bg-neutral-900"
+      className="rounded-md border px-2 py-1 text-sm transition-colors hover:bg-neutral-50 dark:border-neutral-800 dark:hover:bg-neutral-900"
       aria-label="Toggle theme"
     >
-      {theme === 'dark' ? 'Light' : 'Dark'}
+      <span aria-hidden>
+        {theme === 'dark' ? '☀️' : '🌙'}
+      </span>
     </button>
   );
 }
