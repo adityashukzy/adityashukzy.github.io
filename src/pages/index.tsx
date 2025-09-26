@@ -6,8 +6,8 @@ export default function HomePage() {
   return (
     <Layout>
       <Head>
-        <title>Home | Aditya Shukla</title>
-        <meta name="description" content="Personal site of Aditya Shukla" />
+        <title>Aditya Shukla</title>
+        <meta name="description" content="Here's looking at you, kid." />
       </Head>
       <section className="grid grid-cols-1 md:grid-cols-5 gap-8 items-start">
         <div className="md:col-span-3 space-y-4">
@@ -15,14 +15,12 @@ export default function HomePage() {
             <span className="font-extrabold">Aditya</span> Shukla
           </h1>
           <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-            I’m a software engineer who enjoys building simple, thoughtful experiences across the
-            stack. I focus on developer ergonomics, performance, and design systems. Previously I’ve
-            worked on small products, prototypes, and open-source experiments. I like clean UIs,
-            friendly APIs, and making things fast.
+          § Passionate about using ML and Data to create unique products, tools, and services.
+          § I value the process of building anything with heart, integrity, and operational & aesthetic beauty.
+          § Open-minded, conscientious, and creative.
           </p>
           <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-            This site is a minimal, multi-page setup deployed via GitHub Pages. I’ll gradually add
-            posts, notes, and project write-ups here. For now, it’s a tidy home with the basics.
+            This website is a work in progress!
           </p>
         </div>
         <div className="md:col-span-2 md:justify-self-end">

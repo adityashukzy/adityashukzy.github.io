@@ -5,7 +5,7 @@ export default function ProjectsPage() {
   return (
     <Layout>
       <Head>
-        <title>Projects | Aditya Shukla</title>
+        <title>Aditya Shukla's Projects</title>
       </Head>
       <h1 className="text-2xl font-semibold mb-4">Projects</h1>
       <ul className="list-disc pl-6 space-y-2 text-neutral-700">

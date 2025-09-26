@@ -5,7 +5,7 @@ export default function BlogPage() {
   return (
     <Layout>
       <Head>
-        <title>Blog | Aditya Shukla</title>
+        <title>Aditya Shukla's Blog</title>
       </Head>
       <h1 className="text-2xl font-semibold mb-4">Blog</h1>
       <p className="text-neutral-700">No posts yet. Add your writing here.</p>

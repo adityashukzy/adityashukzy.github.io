@@ -5,21 +5,21 @@ export default function PublicationsPage() {
   return (
     <Layout>
       <Head>
-        <title>Publications | Aditya Shukla</title>
+        <title>Aditya Shukla's Publications</title>
       </Head>
       <h1 className="text-2xl font-semibold mb-6">publications</h1>
       <div className="space-y-6">
         <div>
-          <h2 className="font-medium">RecHap: An Interactive Recommender System For Navigating a Large Number of Mid-Air Haptic Designs</h2>
-          <p className="text-sm text-neutral-600 dark:text-neutral-400">Karthikan Theivendran, Andy Wu, William Frier, Oliver Schneider</p>
-          <p className="text-sm text-neutral-600 dark:text-neutral-400">IEEE Transactions on Haptics, Jun 2023</p>
-          <a href="#" className="text-sm">HTML</a>
+          <h2 className="font-medium">An Integrated Document Manipulation Tool Leveraging LLMs, Transformers, and Attention Mechanism</h2>
+          <p className="text-sm text-neutral-600 dark:text-neutral-400"><bold>Aditya Shukla</bold>, Pooja Ravi, B. Arthi</p>
+          <p className="text-sm text-neutral-600 dark:text-neutral-400">ICIOT 2023 | AIP Conference Proceedings 2024</p>
+          <a href="https://doi.org/10.1063/5.0217040" className="text-sm">PDF</a>
         </div>
         <div>
-          <h2 className="font-medium">Sample Paper Title Two</h2>
-          <p className="text-sm text-neutral-600 dark:text-neutral-400">Author One, Author Two</p>
-          <p className="text-sm text-neutral-600 dark:text-neutral-400">Conference XYZ, 2024</p>
-          <a href="#" className="text-sm">PDF</a>
+          <h2 className="font-medium">Real-Time GPU-Accelerated Driver Assistance System</h2>
+          <p className="text-sm text-neutral-600 dark:text-neutral-400">Pooja Ravi, <bold>Aditya Shukla</bold>, and B. Muruganantham</p>
+          <p className="text-sm text-neutral-600 dark:text-neutral-400">RCAAI 2022, Springer - Intelligent Control, Robotics, and Industrial Automation 2023</p>
+          <a href="#https://link.springer.com/chapter/10.1007/978-981-99-4634-1_64" className="text-sm">PDF</a>
         </div>
       </div>
     </Layout>
