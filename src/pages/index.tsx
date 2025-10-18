@@ -68,25 +68,25 @@ export default function HomePage() {
         <h2 className="text-3xl font-bold text-[#8B4513] dark:text-[#00665E] mb-2">Research Interests</h2>
         <div className="w-full h-0.5 bg-[#8B4513] dark:bg-[#00665E] mb-8"></div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="bg-[#FAF8F3] dark:bg-[#012D30] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
+          <div className="bg-[#FAF8F3] dark:bg-[#0C513E] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
             <h3 className="text-xl font-semibold text-[#8B4513] dark:text-[#00665E] mb-3">LLM Reasoning</h3>
             <p className="text-neutral-700 dark:text-neutral-200">
               Inducing robust logical thinking at inference-time
             </p>
           </div>
-          <div className="bg-[#FAF8F3] dark:bg-[#012D30] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
+          <div className="bg-[#FAF8F3] dark:bg-[#0C513E] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
             <h3 className="text-xl font-semibold text-[#8B4513] dark:text-[#00665E] mb-3">Human-Centered AI</h3>
             <p className="text-neutral-700 dark:text-neutral-200">
               Building solutions that can augment human creativity
             </p>
           </div>
-          <div className="bg-[#FAF8F3] dark:bg-[#012D30] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
+          <div className="bg-[#FAF8F3] dark:bg-[#0C513E] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
             <h3 className="text-xl font-semibold text-[#8B4513] dark:text-[#00665E] mb-3">Mechanistic Interpretability</h3>
             <p className="text-neutral-700 dark:text-neutral-200">
               Putting models under the mathematical microscope
             </p>
           </div>
-          <div className="bg-[#FAF8F3] dark:bg-[#012D30] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
+          <div className="bg-[#FAF8F3] dark:bg-[#0C513E] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
             <h3 className="text-xl font-semibold text-[#8B4513] dark:text-[#00665E] mb-3">Explainable AI</h3>
             <p className="text-neutral-700 dark:text-neutral-200">
               Teaching models to answer for themselves
@@ -100,7 +100,7 @@ export default function HomePage() {
         <h2 className="text-3xl font-bold text-[#8B4513] dark:text-[#00665E] mb-2">Education</h2>
         <div className="w-full h-0.5 bg-[#8B4513] dark:bg-[#00665E] mb-8"></div>
         <div className="space-y-6">
-          <div className="bg-[#FAF8F3] dark:bg-[#012D30] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
+          <div className="bg-[#FAF8F3] dark:bg-[#0C513E] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
             <div className="flex justify-between items-start mb-2">
               <div>
                 <h3 className="font-semibold text-lg text-neutral-900 dark:text-neutral-200">University of Toronto</h3>
@@ -112,7 +112,7 @@ export default function HomePage() {
               Coursework: Deep Learning - Theory & Data Science, Neural Networks & Deep Learning
             </p>
           </div>
-          <div className="bg-[#FAF8F3] dark:bg-[#012D30] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
+          <div className="bg-[#FAF8F3] dark:bg-[#0C513E] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
             <div className="flex justify-between items-start mb-2">
               <div>
                 <h3 className="font-semibold text-lg text-neutral-900 dark:text-neutral-200">SRM Institute of Science & Technology</h3>
@@ -129,7 +129,7 @@ export default function HomePage() {
       <section className="mb-10 pb-10">
         <h2 className="text-3xl font-bold text-[#8B4513] dark:text-[#00665E] mb-2">Professional Experience</h2>
         <div className="w-full h-0.5 bg-[#8B4513] dark:bg-[#00665E] mb-8"></div>
-        <div className="bg-[#FAF8F3] dark:bg-[#012D30] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
+        <div className="bg-[#FAF8F3] dark:bg-[#0C513E] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
           <div className="flex justify-between items-start mb-4">
             <div>
               <h3 className="font-semibold text-lg text-neutral-900 dark:text-neutral-200">Machine Learning Engineer, Pricing & FX</h3>
@@ -172,12 +172,12 @@ export default function HomePage() {
         <h2 className="text-3xl font-bold text-[#8B4513] dark:text-[#00665E] mb-2">Publications & Patents</h2>
         <div className="w-full h-0.5 bg-[#8B4513] dark:bg-[#00665E] mb-8"></div>
         <div className="space-y-4">
-          <div className="bg-[#FAF8F3] dark:bg-[#012D30] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
+          <div className="bg-[#FAF8F3] dark:bg-[#0C513E] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
             <h3 className="font-semibold text-neutral-900 dark:text-neutral-200">Agentic Data Extraction using LLMs</h3>
             <p className="text-sm text-neutral-700 dark:text-neutral-200">Filed as part of Pricing ML group at PayPal</p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 italic">Patent Pending from US Patent Office</p>
           </div>
-          <div className="bg-[#FAF8F3] dark:bg-[#012D30] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
+          <div className="bg-[#FAF8F3] dark:bg-[#0C513E] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
             <h3 className="font-semibold text-neutral-900 dark:text-neutral-200">An Integrated Document Manipulation Tool Leveraging LLMs, Transformers, and Attention Mechanism</h3>
             <p className="text-sm text-neutral-700 dark:text-neutral-200">
               <strong>A. Shukla</strong>, P. Ravi, B. Arthi
@@ -187,7 +187,7 @@ export default function HomePage() {
               View Publication →
             </a>
           </div>
-          <div className="bg-[#FAF8F3] dark:bg-[#012D30] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
+          <div className="bg-[#FAF8F3] dark:bg-[#0C513E] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
             <h3 className="font-semibold text-neutral-900 dark:text-neutral-200">Real-Time GPU-Accelerated Driver Assistance System</h3>
             <p className="text-sm text-neutral-700 dark:text-neutral-200">P. Ravi, <strong>A. Shukla</strong>, B. Muruganantham</p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400">RCAAI'22 • Published in Springer 2023</p>
@@ -203,25 +203,25 @@ export default function HomePage() {
         <h2 className="text-3xl font-bold text-[#8B4513] dark:text-[#00665E] mb-2">Skills</h2>
         <div className="w-full h-0.5 bg-[#8B4513] dark:bg-[#00665E] mb-8"></div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="bg-[#FAF8F3] dark:bg-[#012D30] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
+          <div className="bg-[#FAF8F3] dark:bg-[#0C513E] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
             <h3 className="font-semibold mb-2 text-neutral-900 dark:text-neutral-200">AI/ML</h3>
             <p className="text-sm text-neutral-700 dark:text-neutral-200">
               Deep Learning, LLMs, Explainable Reasoning, Agentic AI
             </p>
           </div>
-          <div className="bg-[#FAF8F3] dark:bg-[#012D30] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
+          <div className="bg-[#FAF8F3] dark:bg-[#0C513E] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
             <h3 className="font-semibold mb-2 text-neutral-900 dark:text-neutral-200">Libraries</h3>
             <p className="text-sm text-neutral-700 dark:text-neutral-200">
               PyTorch, transformers, PyTorch Lightning, TensorFlow, Darts, OpenCV, boto3, Flask
             </p>
           </div>
-          <div className="bg-[#FAF8F3] dark:bg-[#012D30] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
+          <div className="bg-[#FAF8F3] dark:bg-[#0C513E] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
             <h3 className="font-semibold mb-2 text-neutral-900 dark:text-neutral-200">Analytics & Data</h3>
             <p className="text-sm text-neutral-700 dark:text-neutral-200">
               SQL, GCP BigQuery, statsmodels, R, MongoDB, AWS S3
             </p>
           </div>
-          <div className="bg-[#FAF8F3] dark:bg-[#012D30] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
+          <div className="bg-[#FAF8F3] dark:bg-[#0C513E] p-6 border-l-4 border-[#8B4513] dark:border-[#00665E]">
             <h3 className="font-semibold mb-2 text-neutral-900 dark:text-neutral-200">Cloud/MLOps</h3>
             <p className="text-sm text-neutral-700 dark:text-neutral-200">
               AWS CCP, AWS Sagemaker, MLflow, Weights & Biases, Docker, RedHat Linux

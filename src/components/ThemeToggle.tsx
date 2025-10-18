@@ -1,22 +1,23 @@
 import { useEffect, useState } from 'react';
 
-function getInitialTheme(): 'light' | 'dark' {
-  if (typeof window === 'undefined') return 'light';
-  const stored = localStorage.getItem('theme');
-  if (stored === 'light' || stored === 'dark') return stored;
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  return prefersDark ? 'dark' : 'light';
-}
-
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState<'light' | 'dark'>(getInitialTheme());
+  const [theme, setTheme] = useState<'light' | 'dark'>('light');
+  const [mounted, setMounted] = useState(false);
+
+  // Sync with actual DOM state on mount
+  useEffect(() => {
+    const isDark = document.documentElement.classList.contains('dark');
+    setTheme(isDark ? 'dark' : 'light');
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
+    if (!mounted) return;
     const root = window.document.documentElement;
     if (theme === 'dark') root.classList.add('dark');
     else root.classList.remove('dark');
     localStorage.setItem('theme', theme);
-  }, [theme]);
+  }, [theme, mounted]);
 
   return (
     <button
