@@ -19,7 +19,6 @@ export default function Layout({ children }: PropsWithChildren) {
             <Link href="/blog" className={isActive('/blog') ? 'underline decoration-2 underline-offset-4' : ''}>blog</Link>
             <Link href="/publications" className={isActive('/publications') ? 'underline decoration-2 underline-offset-4' : ''}>publications</Link>
             <Link href="/projects" className={isActive('/projects') ? 'underline decoration-2 underline-offset-4' : ''}>projects</Link>
-            <Link href="/contact" className={isActive('/contact') ? 'underline decoration-2 underline-offset-4' : ''}>contact</Link>
           </nav>
           <ThemeToggle />
         </div>
